@@ -1,0 +1,7 @@
+# Environment variables
+#
+# Copy this file to .env and fill in real values. .env is gitignored so secrets stay local.
+# Only EXA_API_KEY is used, for web research in the context skills.
+
+# Exa API key: web search and page fetch via the Exa MCP. Get one at https://exa.ai (free tier is fine)
+EXA_API_KEY=

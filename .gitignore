@@ -1,0 +1,27 @@
+# Secrets — never commit
+.env
+.env.*
+!.env.example
+
+# Claude Code per-machine settings
+.claude/settings.local.json
+
+# OS noise
+.DS_Store
+Thumbs.db
+
+# Editor cruft
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Node (if any future tooling adds it)
+node_modules/
+
+# Python (if any future tooling adds it)
+__pycache__/
+*.pyc
+.venv/
+venv/
